@@ -1,0 +1,274 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 60px;
+    background-color: #f7f8f8;
+    color: #000000;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+  }
+  
+  .logo {
+    margin-left: 40px;
+    align-items: center;
+  }
+  .color:hover{
+    color: blue;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 40px;
+  }
+  
+  .nav-links li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .user-controls a {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  .search-container {
+    font-size: 1rem;
+    background-color: #f7f8f8;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 70px;
+}
+.logo2 img{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.ipt{
+  background-color: white;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 400px;
+  border: 3px solid #002f34;
+  border-radius: 4px;
+  
+  
+}
+.ipt input{
+  width: 350px;
+  height: 45px;
+  border: none;
+  font-size: 1rem;
+}
+.border:hover{
+  border: 2px solid skyblue;
+}
+
+.ipt2{
+  border-radius: 4px;
+  background-color: #002f34;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 650px;
+ color: white;
+ border: 3px solid #002f34;
+  
+  
+}
+.ipt2 i{
+  margin-left: 10px;
+  font-size: 1.3rem;
+}
+.ipt2 input{
+  margin: 1px;
+  font-size: 1rem;
+  width: 600px;
+  height: 45px;
+  border: none;
+}
+/* input[type="text"] {
+  height: 50px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+} */
+
+button {
+  font-size: 1rem;
+    padding: 10px 20px;
+    border: 3px solid black;
+    background-color: #f7f8f8;
+    color: black;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.ipt:hover {
+   border-color: 2px aqua;
+}
+ 
+.hero
+{
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(255, 255, 255);
+}
+.hero ul li a{
+  color: #000000;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+.hero ul li a:hover{
+  color: #478d8d;
+}
+.hero li{
+  align-items: center;
+  color: #000000;
+  padding: 10px;
+  display: inline;
+  margin-left: 10px;
+  text-decoration: none;
+  
+}
+.hero li:hover{
+  color: rgb(174, 219, 219);
+} 
+.selection-area option{
+  font-size: 1rem;
+}
+.selection-area select{
+ font-size: 1.2rem;
+  margin-left: 20px;
+ font-weight: 1rem;
+  color:black;
+  border: none;
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 50px;
+  background-color: #ffffff; /* Background color of the selection area */
+} 
+.add{
+  margin: 30px;
+}
+.add img{
+  
+  width: 100%;
+  height: auto;
+}
+h2{
+  font-weight: 20px;
+  margin-left: 20px;
+  color: #002f34
+}
+
+/* .mobile{
+  font-size: 1.3rem;
+  font-weight: 1.3rem;
+  color: #002f34;
+  margin-left: 20px;
+} */
+  /* Define grid layout */
+  .grid-container a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+  .grid-container {
+    
+    display: grid;
+    grid-template-columns: repeat(9,2fr);
+    grid-gap: 10px;
+  }
+
+  /* Style for each picture item */
+  .grid-item {
+    text-align: center;
+  }
+
+  /* Style for the image */
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Style for the name of the picture */
+  .grid-item p {
+    margin: 5px 0;
+  }
+  .mobile{
+    display: grid;
+    grid-template-columns: repeat(4,2fr);
+    grid-gap: 10px;
+  }
+  .mobile a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+  }
+  .item{
+    width: 420px;
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 3px;
+  }
+  h1{
+    margin-left: 20px;
+  }
+  .item img{
+    border-radius: 3px;
+   width: 420px;
+   height: 250px;
+  }
+  .item p{
+    margin-left: 5px 0;
+  }
+  .CAR{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 1.5rem;
+    
+  }
+.CAR  a{
+  text-decoration: none;
+}
+.carpic{
+  display: grid;
+  grid-template-columns: repeat(4 , 2fr);
+  grid-gap: 10px;
+}
+.carpic a{
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+  .carpic img{
+    border-radius: 3px;
+   width: 420px;
+   height: 250px;
+  }
